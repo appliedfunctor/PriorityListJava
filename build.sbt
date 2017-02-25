@@ -19,6 +19,6 @@ autoScalaLibrary := false
 
 // library dependencies. (orginization name) % (project name) % (version)
 libraryDependencies ++= Seq(
-  "org.fluentd" % "fluent-logger" % "2.3.4",
+  "org.fluentd" % "fluent-logger" % "0.3.2",
   "org.mockito" % "mockito-core" % "2.7.11" % "test"  // Test-only dependency
 )
